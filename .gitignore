@@ -1,0 +1,20 @@
+config/billplz.ini
+# config/config.ini
+config/database.ini
+config/eloquent.php
+config/paypal.ini
+config/recaptcha.ini
+config/routes.ini
+config/session.php
+config/smtp.ini
+
+!assets/images/logo.png
+!assets/images/placeholder.png
+assets/images/*
+assets/images/cache/*
+assets/admin/*.zip
+
+.git/
+tmp/*
+vendor/
+*.zip
