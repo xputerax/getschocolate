@@ -5,14 +5,17 @@ config/eloquent.php
 config/paypal.ini
 config/recaptcha.ini
 config/routes.ini
-config/session.php
+# config/session.php
 config/smtp.ini
 
+assets/admin/*.zip
 !assets/images/logo.png
 !assets/images/placeholder.png
 assets/images/*
+!assets/images/cache
+!assets/images/.notempty
 assets/images/cache/*
-assets/admin/*.zip
+!assets/images/cache/.notempty
 
 .git/
 tmp/*
